@@ -32,7 +32,7 @@ export default [
         answer: ['twenty-seven (27)']
     },
     {
-        question: '8. What did the Declaration of Independence do?',
+        question: 'What did the Declaration of Independence do?',
         answer: [
             'announced our independence (from Great Britain)',
             'declared our independence (from Great Britain)',
@@ -405,7 +405,6 @@ export default [
             'started the first free libraries',
         ]
     },
-    ,
     {
         question: 'Who is the “Father of Our Country”?',
         answer: ['(George) Washington']
@@ -514,7 +513,7 @@ export default [
     },
     {
         question: 'What major event happened on September 11, 2001, in the United States?',
-        answer: 'Terrorists attacked the United States.'
+        answer: ['Terrorists attacked the United States.']
     },
     {
         question: 'Name one American Indian tribe in the United States.',
