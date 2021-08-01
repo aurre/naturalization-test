@@ -1,7 +1,7 @@
 
 import React from 'react';
-import './Question.css';
-import questions from '../questions';
+import './FlipCard.css';
+import questions from '../../mappingData/questions';
 
 class Question extends React.Component {
     constructor(props) {
@@ -40,6 +40,8 @@ class Question extends React.Component {
         this.setState({ counter: counter });
     }
 
+    // gotToPreviousQuestion() { }
+
     render() {
         const questionObj = this.state.questions[this.state.counter] || {};
         const question = questionObj.question;
@@ -52,7 +54,7 @@ class Question extends React.Component {
                     <div className="front">
                         <h3>Question {this.state.counter + 1}</h3>
                         <h1>{question}</h1>
-                    </div>
+                    </div>x
                     <div className="back">
                         <h3>Answer</h3>
                         <ul>{answer}</ul>

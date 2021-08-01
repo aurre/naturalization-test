@@ -1,4 +1,4 @@
-export default [
+const questions = [
     // A (1-12): Principles of American Democracy
     {
         question: 'What is the supreme law of the land?',
@@ -647,4 +647,6 @@ export default [
             'Christmas'
         ]
     }
-]
+];
+
+export default questions;
